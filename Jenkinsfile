@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage("Clone Code from gitHub"){
+        stage("Clone Code from git"){
             steps{
                 git url: "https://github.com/LondheShubham153/django-notes-app.git", branch: "main"
             }
